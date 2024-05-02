@@ -5,14 +5,25 @@ Results:
 
 **Accuracy**: The model’s accuracy score was computed by comparing the prediction on the test set with the labels.
 
-             ``` precision    recall  f1-score   support ```
-
- ``` healthy_loan       1.00      1.00      1.00     18759 ```
-```high-risk_loan       0.87      0.89      0.88       625 ```
-
-  ``` accuracy                           0.99     19384 ``
-     macro avg       0.94      0.94      0.94     19384
-  weighted avg       0.99      0.99      0.99     19384 ```
+Healthy Loans:
+  -Precision: 1.00
+  -Recall: 1.00
+  -F1-score: 1.00
+  -Support: 18,759 instances
+High-Risk Loans:
+  -Precision: 0.87
+  -Recall: 0.89
+  -F1-score: 0.88
+  -Support: 625 instances
+Overall Accuracy: The model achieved an accuracy of 99% across all instances in the test set.
+Macro Average:
+  -Precision: 0.94
+  -Recall: 0.94
+  -F1-score: 0.94
+Weighted Average:
+  -Precision: 0.99
+  -Recall: 0.99
+  -F1-score: 0.99
 
   
 **Precision**: The precision score was calculated for both classes to determine the models ability to correctly classify each class.
