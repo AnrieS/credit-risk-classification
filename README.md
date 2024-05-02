@@ -5,14 +5,14 @@ Results:
 
 **Accuracy**: The model’s accuracy score was computed by comparing the prediction on the test set with the labels.
 
-              precision    recall  f1-score   support
+             ``` precision    recall  f1-score   support ```
 
-  healthy_loan       1.00      1.00      1.00     18759
-high-risk_loan       0.87      0.89      0.88       625
+ ``` healthy_loan       1.00      1.00      1.00     18759 ```
+```high-risk_loan       0.87      0.89      0.88       625 ```
 
-      accuracy                           0.99     19384
+  ``` accuracy                           0.99     19384 ``
      macro avg       0.94      0.94      0.94     19384
-  weighted avg       0.99      0.99      0.99     19384
+  weighted avg       0.99      0.99      0.99     19384 ```
 
   
 **Precision**: The precision score was calculated for both classes to determine the models ability to correctly classify each class.
