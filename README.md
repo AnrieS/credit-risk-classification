@@ -6,10 +6,10 @@ Results:
 **Accuracy**: The model’s accuracy score was computed by comparing the prediction on the test set with the labels.
 
 Healthy Loans:
-  -Precision: 1.00
-  -Recall: 1.00
-  -F1-score: 1.00
-  -Support: 18,759 instances
+  *Precision: 1.00
+  *Recall: 1.00
+  *F1-score: 1.00
+  *Support: 18,759 instances
   
 High-Risk Loans:
   -Precision: 0.87
