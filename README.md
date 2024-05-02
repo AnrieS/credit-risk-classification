@@ -10,6 +10,7 @@ Healthy Loans:
   -Recall: 1.00
   -F1-score: 1.00
   -Support: 18,759 instances
+  
 High-Risk Loans:
   -Precision: 0.87
   -Recall: 0.89
